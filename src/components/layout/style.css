@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+}
+
+.Layout {
+  display: flex;
+  height: 100%;
+  margin: 0;
+  justify-content: center;
+  position: relative;
+
+  background: #D4D4D4;
+}
+
+.Layout-rectangle {
+  position: absolute;
+  top: 345px;
+
+  width: 935px;
+  height: 300px;
+
+  rotate: 30deg;
+  border-radius: 300px;
+
+  background: #7075F1;
+}

@@ -1,0 +1,55 @@
+.Card {
+  box-sizing: border-box;
+
+  width: 339px;
+  margin: 30px;
+  padding: 15px 25px;
+
+  box-shadow: 0 0 46px rgba(0, 0, 0, 0.25);
+
+  border-radius: 25px;
+
+  backdrop-filter: blur(15px);
+
+  transition: 0.2s;
+  transform: rotate(360deg);
+}
+
+.Card:hover {
+  transition: 0.5s;
+  background: #FFFFFF;
+}
+
+.Card.Card__selected {
+  box-shadow: 0 0 46px #FF2F54;
+}
+
+.Card-title {
+  padding-bottom: 15px;
+
+  font-size: 32px;
+
+  text-wrap: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 1199px) {
+  .Card {
+    width: 400px;
+    margin: 15px;
+  }
+}
+
+@media screen and (max-width: 899px) {
+  .Card {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .Card {
+    width: 400px;
+    margin: 5px;
+  }
+}
