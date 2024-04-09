@@ -4,7 +4,7 @@ body {
 
 .Layout {
   display: flex;
-  height: 100%;
+  min-height: 100vh;
   margin: 0;
   justify-content: center;
   position: relative;
@@ -20,7 +20,31 @@ body {
   height: 300px;
 
   rotate: 30deg;
+
   border-radius: 300px;
 
+  transition-duration: 1s;
+
   background: #7075F1;
+}
+
+@media screen and (max-width: 1199px) {
+  .Layout-rectangle {
+    rotate: -30deg;
+    transition-duration: 1s;
+  }
+}
+
+@media screen and (max-width: 899px) {
+  .Layout-rectangle {
+    rotate: 30deg;
+    width: 700px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .Layout-rectangle {
+    rotate: -60deg;
+  }
 }
