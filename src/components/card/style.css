@@ -10,13 +10,20 @@
   border-radius: 25px;
 
   backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
 
   transition: 0.2s;
+  -moz-transition: 0.2s;
+  -webkit-transition: 0.2s;
+
   transform: rotate(360deg);
 }
 
 .Card:hover {
   transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+
   background: #FFFFFF;
 }
 
