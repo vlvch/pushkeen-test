@@ -36,7 +36,7 @@
 
 @media screen and (max-width: 1199px) {
   .Card {
-    width: 400px;
+    width: 420px;
     margin: 15px;
   }
 }
@@ -44,12 +44,13 @@
 @media screen and (max-width: 899px) {
   .Card {
     width: 600px;
+    margin: 10px;
   }
 }
 
 @media screen and (max-width: 599px) {
   .Card {
     width: 400px;
-    margin: 5px;
+    margin: 5px 10px;
   }
 }
